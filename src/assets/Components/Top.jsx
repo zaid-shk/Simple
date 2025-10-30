@@ -20,19 +20,19 @@ function Top() {
         </div>
         <div className="text-white bg-zinc-900 flex gap-4  p-4 items-center border border-zinc-700 mt-2 rounded-2xl">
           <h3 className="border-r-2 pr-5 ">Interests</h3>
-          <h4 className="bg-black px-2 py-1 rounded-xl border border-zinc-600 flex items-center gap-2">
+          <h4 className="bg-black px-2 cursor-pointer py-1 rounded-xl border border-zinc-600 flex items-center gap-2">
             <Gamepad2 size={20} />
             Gaming
           </h4>
-          <h4 className="bg-black px-2 py-1 rounded-xl border border-zinc-600 flex items-center gap-2">
+          <h4 className="bg-black px-2 cursor-pointer py-1 rounded-xl border border-zinc-600 flex items-center gap-2">
             <TvMinimalPlay size={20} />
             Movie
           </h4>
-          <h4 className="bg-black px-2 py-1 rounded-xl border border-zinc-600 flex items-center gap-2">
+          <h4 className="bg-black px-2 cursor-pointer py-1 rounded-xl border border-zinc-600 flex items-center gap-2">
             <Tent size={20} />
             Traviling
           </h4>
-          <h4 className="bg-black px-2 py-1 rounded-xl border border-zinc-600">
+          <h4 className="bg-black px-2 cursor-pointer py-1 rounded-xl border border-zinc-600">
             Etc
           </h4>
         </div>
