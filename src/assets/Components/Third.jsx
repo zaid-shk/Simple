@@ -9,8 +9,8 @@ import America from './imgs/flag.png'
 function Third() {
   return (
     <div className="grid grid-cols-2 h-70 mt-6 gap-5">
-      <div className="p-2 flex flex-col gap-7 justify-center ">
-        <div className="h-18 bg-zinc-900 border border-zinc-500 rounded-2xl flex items-center p-2">
+      <div className=" flex flex-col gap-7 justify-center ">
+        <div className="h-18 bg-zinc-900 border border-zinc-700 rounded-2xl flex items-center p-2">
           <h1 className=" Design border-r-2 pr-3">Design Tools</h1>
           <div className="flex gap-6 justify-center p-3">
                 <img src={Photoshope} alt="" className="h-8" />
@@ -19,7 +19,7 @@ function Third() {
                 <img src={Indesign} alt=""  className="h-8"/>
           </div>
         </div>
-        <div className="h-18 bg-zinc-900 border border-zinc-500 rounded-2xl flex items-center p-2">
+        <div className="h-18 bg-zinc-900 border border-zinc-700 rounded-2xl flex items-center p-2">
           <h1 className="border-r-2 pr-3">Editing Tools</h1>
           <div className="flex gap-6 justify-center p-3">
                 <img src="https://w7.pngwing.com/pngs/942/865/png-transparent-adobe-premiere-pro-cc-14-3-hd-logo.png" alt="" className="h-8 rounded-2xl" />
@@ -27,7 +27,7 @@ function Third() {
                 <img src={Xs} alt="" className="h-8" />
           </div>
         </div>
-        <div className="h-18 bg-zinc-900 border border-zinc-500 rounded-2xl flex items-center p-2">
+        <div className="h-18 bg-zinc-900 border border-zinc-700 rounded-2xl flex items-center p-2">
           <h1 className="border-r-2 pr-6">Languages</h1>
           <div className="flex gap-6 justify-center p-5">
                 <img src={India} alt="" className="h-8" />

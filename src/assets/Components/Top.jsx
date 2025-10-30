@@ -10,7 +10,7 @@ function Top() {
       <div className="">
         <img src={Img} alt="" className="rounded-3xl h-50" />
       </div>
-      <div className="">
+      <div className="flex flex-col gap-3">
         <div className="text-white bg-zinc-900 text-lg h-26 border p-3 border-zinc-700 w-full rounded-2xl mt-1">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
