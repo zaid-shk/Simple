@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+html,body{
+    color: #ffffff;
+    background-color: black;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'Robot';
+    src: url(./assets/Components/fonts/RobotoCondensed-Italic-VariableFont_wght.ttf) format('truetype');
+}
+body {
+    font-family: 'Robot', sans-serif;
+}
